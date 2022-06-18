@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForHeart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../static/css/waffle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  
+
+ 
+    <link rel="shortcut icon" href="/static/images/favicon.ico?v=2">
+</head>
+<body>
+    <div class="home">
+    
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+     
+        <img src="../static/images/LOGO1.png" alt="" width="150" height="150" >
+        <label class="logo" >ForHeart</label>
+        
+        <ul>
+          
+          <li><a class="navlinks" href="/templates/description.html">Description</a></li>
+          <li><a  class="navlinks" href="/templates/form.html">Predict</a></li>
+          <li><a  class="navlinks" href="/templates/activity.html">Fitness</a></li>
+          <li><a  class="navlinks" href="/templates/about.html">About Us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="heading1">
+      <p class="abtsubhead" style="text-align: center; color: rgb(3, 3, 3);"><b>Predict the chances of getting Heart-Attack</b></p>
+    </div>
+
+
+    <div >
+      <div style=" float: left; margin-left: 5%;  " class="abt"><p>We are observing a recent trend of increase in heart attack fatalities with every passing generation. With the consultation of medical experts, we have figured out, that with the increasing workload, stress, and unhealthy lifestyle, there has been an increase in the upwardness of the curve of heart attack victims. Due to the lack of awareness of the general masses, this trend is not going to reduce in the coming future.
+      <br><br>
+      We have designed a model which will take few basic inputs from the user, and based on statistical and scientific data, our model shall predict the possibility of a heart attack.
+      <br><br>
+      <em> We should however like to stress that patients and users should not treat this as a diagnosis of illness, and if there is some serious discomfort then, they should immediately visit the doctor.</em> 
+      <br><br>
+      Please read description to know more about the medical information we are asking to predict!</p>
+
+         
+      </div>
+      <div style="margin-left: 50%; padding-left: 15%; "> 
+
+        <div class="container-img">
+          <!-- {% if session %} -->
+          <img src="../static/images/doctor3.png" alt="" class="docimg" >
+          <a href="/templates/form.html"><button class="centered">Predict</button></a>
+          <a href="/logout"><button class="cente">Logout</button></a>
+          <!-- {% else %}
+          <img src="../static/images/doctor2.png" alt="" class="docimg" >
+          <a href="/login"><button class="centered" href="/login"> SignIn </button></a>
+          {% endif %} -->
+
+
+
+        </div>
+      </div>
+  </div>
+</div>
+<div class="container">
+  <div class="chatbox" >
+      <div class="chatbox__support"  >
+          <div class="chatbox__header">
+              <div class="chatbox__image--header">
+                  <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+              </div>
+              <div class="chatbox__content--header">
+                  <h4 class="chatbox__heading--header">Chat Support</h4>
+                  <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+              </div>
+          </div>
+          <div class="chatbox__messages">
+              <div></div>
+          </div>
+          <div class="chatbox__footer">
+              <input type="text" placeholder="Write a message...">
+              <button class="chatbox__send--footer send__button">Send</button>
+          </div>
+      </div>
+      <div class="chatbox__button">
+          <button ><img src="../static/images/chatbox-icon.svg" /></button>
+      </div>
+  </div>
+</div>
+ 
+  <div class="foot">
+    &copy ForHeart 2022
+ </div>
+  
+<script type=text/javascript>
+  $SCRIPT_ROOT = {{ request.script_root|tojson }};
+</script>
+<script type="text/javascript" src="../static/js/capp.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+     
+</body>
+</html>
