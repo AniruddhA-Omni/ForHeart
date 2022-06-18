@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "context": [""]
+    },
+    {"tag": "name",
+      "patterns": ["what is your name?","what should I call you?","who are you?"],
+      "responses": ["I'm Forheart","Hey!I'm Forheart"],
+      "context": [""]
+     },
+      {"tag": "about",
+      "patterns": ["how you doing?","how are you"],
+      "responses": ["Thanks For Asking!How can I help you?"],
+      "context": [""]
+     },
+     {"tag": "options",
+      "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+      "responses": ["I can guide you through Adverse management problems, person to be contacted and Department related queries","I can provide support related to following problems technical query,management related query,order related query,outsourcing problem"],
+      "context": [""]
+     },
+     {"tag": "forgot_password",
+      "patterns": ["I forgot my Login password?","what to do when someone forgets Login password?","I forgot my Laptop password","Forgot Wifi password"],
+      "responses": ["Please enter your email id ,we will send a link on your email"],
+       "context": [""]
+     },
+       {"tag": "email_id",
+       "patterns":["abx@gmail.com","abc@kiit.ac.in"],
+       "responses":["Link has been shared.Please change your password"],
+        "context": [""]
+     },
+     {"tag": "key_customers",
+      "patterns": ["Our Target customers", "who are your key customers"],
+      "responses": ["Our target customers are of all ages, from children to adults, and from all walks of life."],
+      "context": [""]
+     },
+    {"tag": "contact_us",
+        "patterns": ["How to contact us?","How to reach us?","How to get in touch?","How to get in touch with us?"],
+        "responses": ["You can contact us at +91-9888888888 or email us at"],
+        "context": [""]
+    },
+    {"tag": "project_handling_queries",
+      "patterns": ["complaint has been raised for Insufficient Team Skills","Miscommunication Conflicts needs to be resolved","Risk Management issue has occured","skilled employees needed urgently"],
+      "responses": ["Please contact anyone from our team"],
+      "context": [""]
+     },
+    {"tag": "noans",
+      "patterns": ["why","how","when","I","you"],
+      "responses": ["Can't Understand Your Question","please elaborate your question"],
+      "context": [""]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We don't sell anything, but you can always check out our website for more information."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We are not accepting any kind of payment as the service is free"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "We are not delivering anywhere"
+      ]
+    },
+    {"tag": "customer_satisfaction",
+      "patterns": ["how was the customer response","Is the customer happy?","what was the customer feedback?"],
+      "responses": ["Customer was happy and has given good rating"],
+      "context": [""]
+     },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Tell me a funny joke"
+      ],
+      "responses": [
+        "My Dog Stepped On a Bee!",
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What do you call a cow with no legs? Ground beef."
+      ]
+    }
+  ]
+}
