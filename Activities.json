@@ -1,0 +1,50 @@
+{
+    "0": [
+        {
+            "Name": "Take a 10-minute walk: ",
+            "Description": "If you don't exercise at all, a brief walk is a great way to start. If you do, it's a good way to add more exercise to your day."
+        }
+    ],
+    "1": [
+        {
+            "Name": "Give yourself a lift: ",
+            "Description": "Lifting a hardcover book or a two-pound weight a few times a day can help tone your arm muscles. When that becomes a breeze, move on to heavier items or join a gym."
+        }
+    ],
+    "2": [
+        {
+            "Name": "Eat one extra fruit or vegetable a day: ",
+            "Description": "Fruits and vegetables are inexpensive, taste good, and are good for everything from your brain to your bowels."
+        }
+    ],
+    "3": [
+        {
+            "Name": "Make breakfast count: ",
+            "Description": "Start the day with some fruit and a serving of whole grains, like oatmeal, bran flakes, or whole-wheat toast."
+        }
+    ],
+    "4": [
+        {
+            "Name": "Stop drinking your calories: ",
+            "Description": "Cutting out just one sugar-sweetened soda or calorie-laden latte can easily save you 100 or more calories a day. Over a year, that can translate into a 10-pound weight loss."
+        }
+    ],
+    "5": [
+        {
+            "Name": "Have a handful of nuts: ",
+            "Description": "Walnuts, almonds, peanuts, and other nuts are good for your heart. Try grabbing some instead of chips or cookies when you need a snack, adding them to salads for a healthful and tasty crunch, or using them in place of meat in pasta and other dishes."
+        }
+    ],
+    "6": [
+        {
+            "Name": "Sample the fruits of the sea: ",
+            "Description": "Eat fish or other types of seafood instead of red meat once a week. It's good for the heart, the brain, and the waistline."
+        }
+    ],
+    "7": [
+        {
+            "Name": "Breathe deeply: ",
+            "Description": "Try breathing slowly and deeply for a few minutes a day. It can help you relax. Slow, deep breathing may also help lower blood pressure."
+        }
+    ]
+}
