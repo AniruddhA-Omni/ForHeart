@@ -1,0 +1,86 @@
+{
+    "0": [
+        {
+            "Parameter: ": "sex",
+            "Description": "Sex of Patient: 0: MALE. 1: FEMALE"
+        }
+    ],
+    "1": [
+        {
+            "Parameter: ": "age",
+            "Description": "Age of Patient"
+        }
+    ],
+    "2": [
+        {
+            "Parameter: ": "cp",
+            "Description": "chest pain type (4 values)-> Value 1: typical angina, Value 2: atypical angina, Value 3: non-anginal pain, Value 4: asymptomatic"
+        }
+    ],
+    "3": [
+        {
+            "Parameter: ": "trestbps",
+            "Description": "resting blood pressure in mm Hg on admission to the hospital"
+        }
+    ],
+    "4": [
+        {
+            "Parameter: ": "chol",
+            "Description": "serum cholestoral in mg/dl"
+        }
+    ],
+    "5": [
+        {
+            "Parameter: ": "fbs",
+            "Description": "fasting blood sugar & gt> 120 mg/dl, 1 = true; 0 = false"
+        }
+    ],
+    "6": [
+        {
+            "Parameter: ": "restecg",
+            "Description": "resting electrocardiographic results (values 0,1,2)-> Value 0: normal, Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria"
+        }
+    ],
+    "7": [
+        {
+            "Parameter: ": "thalach",
+            "Description": "maximum heart rate achieved"
+        }
+    ],
+    "8": [
+        {
+            "Parameter: ": "exang",
+            "Description": "exercise induced angina-> 1 = yes; 0 = no"
+        }
+    ],
+    "9": [
+        {
+            "Parameter: ": "oldpeak",
+            "Description": "ST depression induced by exercise relative to rest"
+        }
+    ],
+    "10": [
+        {
+            "Parameter: ": "slope",
+            "Description": "the slope of the peak exercise ST segment-> Value 1: upsloping, Value 2: flat, Value 3: downsloping"
+        }
+    ],
+    "11": [
+        {
+            "Parameter: ": "ca",
+            "Description": "number of major vessels (0-3) colored by flourosopy"
+        }
+    ],
+    "12": [
+        {
+            "Parameter: ": "thal",
+            "Description": "Thalassemia is an inherited blood disorder that causes your body to have less hemoglobin than normal. Hemoglobin enables red blood cells to carry oxygen. Thalassemia can cause anemia, leaving you fatigued. If you have mild thalassemia, you might not need treatment. Value-> 0 = normal; 1 = fixed defect; 2 = reversable defect"
+        }
+    ],
+    "13": [
+        {
+            "Parameter: ": "target",
+            "Description": "0:1"
+        }
+    ]
+}
