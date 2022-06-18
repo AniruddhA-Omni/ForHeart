@@ -789,8 +789,8 @@ a button .cente:hover {
 =============== */
 .chatbox {
   position: absolute;
-  bottom: -120px;
-  right: 5vh;
+  bottom: -220px;
+  right: 180vh;
   padding-bottom: 20px;
   --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
   --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
@@ -814,7 +814,9 @@ a button .cente:hover {
 
 /* CONTENT ISOPEN */
 .chatbox--active {
+  
   transform: translateY(-40px);
+  transform: translateX(370px);
   /* z-index:-1; */
   opacity: 1;
 
