@@ -87,7 +87,6 @@ parso==0.8.3
 patsy==0.5.2
 phik==0.12.2
 pickleshare==0.7.5
-Pillow==9.1.1
 plac==1.1.3
 plotly==5.8.2
 preshed==3.0.6
@@ -110,7 +109,6 @@ pyrsistent==0.18.1
 python-dateutil==2.8.2
 python-dotenv==0.20.0
 pytz==2022.1
-PyWavelets==1.3.0
 pywin32==227
 pywinpty==2.0.5
 PyYAML==5.4.1
@@ -128,7 +126,6 @@ sklearn==0.0
 smart-open==6.0.0
 smmap==5.0.0
 soupsieve==2.3.2.post1
-SQLAlchemy==1.4.37
 sqlparse==0.4.2
 srsly==1.0.5
 stack-data==0.3.0
