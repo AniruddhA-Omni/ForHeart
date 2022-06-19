@@ -406,6 +406,7 @@ a button .cente:hover {
          padding-bottom: 2%;
          border-radius: 50px 20px;
          font-size: 19px;
+         font-family:'Montserrat', sans-serif;
          float:left;
          
         
@@ -921,7 +922,7 @@ a button .cente:hover {
          
          margin-left: 5%;
          margin-right: 5%;
-         font-family: Helvetica, sans-serif;
+         font-family: 'Playfair Display', serif;
          background-color:  rgba(245, 245, 245, 0.849);
          color: rgb(84, 20, 246);
          padding-left: 5%;
