@@ -764,6 +764,7 @@ a button .cente:hover {
       .cente{
         left: 35%;
       }
+      
     }
 
     @media screen and (max-width:858px) and (min-width:800px) {
@@ -918,7 +919,7 @@ a button .cente:hover {
 
       /* Bottom right text */
       .text-block {
-        margin-top: 5%;
+         margin-top: 10%;
          
          margin-left: 5%;
          margin-right: 5%;
@@ -930,6 +931,14 @@ a button .cente:hover {
          border-radius: 5px;
      }
 
+     @media (max-width:500px) and (min-width:300px)
+     {
+      .text-block{
+        margin-top: 15%;
+      }
+     }
+
+
      #link{
          text-decoration: none;
          color: white;
@@ -938,21 +947,9 @@ a button .cente:hover {
          border-radius: 4px;
      }
 
-    @media screen and (max-width: 420px) { 
-
-
-        
-         .text-block {
-         position: absolute;
-         bottom: 3%;
-         left: 3%;
-         right: 3%;
-     }
-
-     
-
+    .foot.result{
+      margin-top: 40%;
     }
-
 
 
 
