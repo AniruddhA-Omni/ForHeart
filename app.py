@@ -4,7 +4,6 @@ from chat import get_response
 from authlib.integrations.flask_client import OAuth
 from dotenv import find_dotenv, load_dotenv
 from flask import Flask, redirect, render_template, session, url_for,request, jsonify
-import pickle
 import pandas as pd
 import numpy as np
 from pycaret.classification import *
