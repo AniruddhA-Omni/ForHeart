@@ -29,7 +29,7 @@ We have made a tool for the prediction of Heart Attacks using the Machine Learni
 1. Clone repo
 
     ```bash
-    (base) git clone https://github.com/AniruddhA-Omni/gesture_control.git
+    (base) git clone https://github.com/AniruddhA-Omni/ForHeart.git
     (base) cd ForHeart
     ```
 2. Install dependent packages
