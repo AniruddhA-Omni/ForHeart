@@ -96,22 +96,175 @@ body{
   text-decoration: none;
 }
 .button-9.self4{
- margin-left: 48%;
+  margin-left: 20%;
   text-decoration: none;
   
 }
 .button-9.self5{
   margin-left: 20%;
   text-decoration: none;
-  background-color: rgb(243, 173, 42);
+  background-color: rgb(249, 170, 23);
 }
 .button-9.self6{
-  margin-left: 50%;
-  background-color: rgb(97, 239, 133);
+  margin-left: 52%;
+  background-color: rgb(32, 253, 87);
   text-decoration: none;
 }
 
 
+@media (max-width:1200px) and (min-width:1100px){
+  .button-9.self3{
+    margin-left: 48%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 50%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+
+@media (max-width:1100px) and (min-width:1000px){
+  .button-9.self3{
+    margin-left: 47%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 48%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+
+@media (max-width:1000px) and (min-width:900px){
+  .button-9.self3{
+    margin-left: 45%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 45%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+
+@media (max-width:900px) and (min-width:800px){
+  .button-9.self3{
+    margin-left: 45%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 43%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+
+@media (max-width:800px) and (min-width:700px){
+  .button-9.self3{
+    margin-left: 42%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 40%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+
+
+@media (max-width:700px) and (min-width:600px){
+  .button-9.self1{
+    margin-left: 75%;
+    text-decoration: none;
+    
+  }
+
+  .button-9.self3{
+    margin-left: 38%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 38%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+@media (max-width:600px) and (min-width:500px){
+  .button-9.self1{
+    margin-left: 75%;
+    text-decoration: none;
+    
+  }
+  
+  .button-9.self3{
+    margin-left: 32%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 34%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+@media (max-width:500px) and (min-width:400px){
+  .button-9.self1{
+    margin-left: 70%;
+    text-decoration: none;
+    
+  }
+  .button-9.self3{
+    margin-left: 20%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 25%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
+
+@media (max-width:400px) and (min-width:300px){
+  .button-9.self1{
+    margin-left: 68%;
+    text-decoration: none;
+    
+  }
+  .button-9.self3{
+    margin-left: 10%;
+    text-decoration: none;
+    
+  }
+  .button-9.self6{
+    margin-left: 12%;
+    background-color: rgb(32, 253, 87);
+    text-decoration: none;
+  }
+  
+}
 
 a button .cente:hover {
   cursor: pointer;
