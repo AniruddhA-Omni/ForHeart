@@ -42,7 +42,7 @@
           
      
     
-                <form method="POST" id="contactForm" name="contactForm" class="contactForm"  action="{{url_for('form_get')}}">
+                    <form method="POST" id="contactForm" name="contactForm" class="contactForm"  action="{{url_for('form_get')}}">
                     <div class="row justify-content-center" style="margin-left: 10% ; margin-top: 0.5%;" id="card1">
                         <div class="col-lg-10">
                             <div class="wrapper img" style="background-image: url(../static/images/img.jpg);  margin-right: 8%; border-radius: 5px;">
@@ -57,7 +57,7 @@
     
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <label class="label" for="subject">Full Name</label>
+                                                        <label class="label" for="subject"><b>Full Name</b></label>
                                                         <input type="text" required class="form-control" name="name" id="subject"
                                                             placeholder="Full Name">
                                                     </div>
@@ -65,14 +65,14 @@
     
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label class="label" for="name">Age</label>
+                                                        <label class="label" for="name"><b>Age</b></label>
                                                         <input type="text" required class="form-control" name="age" id="name"
                                                             placeholder="Age">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <label class="label" required for="#">Gender:</label><br>
+                                                        <label class="label" required for="#"><b>Gender:</b></label><br>
                                                         <input type="radio" name="gender" required value="1">&nbsp&nbspMale<br>
                                                         <input type="radio" name="gender" value="0">&nbsp&nbspFemale<br>
                                                     </div>
@@ -81,7 +81,7 @@
     
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <label class="label" for="#">Chest pain:</label><br>
+                                                        <label class="label" for="#"><b>Chest pain:</b></label><br>
                                                         <input type="radio" name="chestpain"  required value="0"> Typical angina<br>
                                                         <input type="radio" name="chestpain" value="1"> atypical angina<br>
                                                         <input type="radio" name="chestpain" value="2"> non-anginal pain<br>
@@ -114,7 +114,7 @@
     
                     <div class="row justify-content-center" style="margin-left: 10% ; margin-top: 50%;" id="card2">
                         <div class="col-lg-10">
-                            <div class="wrapper img" style=" background-color: rgba(255, 255, 255, 0.7); margin-right: 8%; border-radius: 5px;">
+                            <div class="wrapper img" style=" background-image: url(../static/images/img.jpg); margin-right: 8%; border-radius: 5px;">
                                 <div class="row">
     
     
