@@ -36,20 +36,25 @@
         
        
         <div class="text-block">
-            <h1> Prediction Results: </h1>
-
+            <h1 style="color:blue; background-color:rgb(22, 22, 22)"> Prediction Results: </h1>rgb(22, 22, 22)
             <br>
-            <h1>Hi {{name}} <br> Your result is {{data}}</h1>
+            <h1 style="color:blue; background-color:rgb(22, 22, 22)">Hi {{name}} <br> Your result is {{data}}</h1>
 
             {%if data == 0%}
-            <h1>I have a Great news!!!! <br>Your chances of getting heart attack is very LOW.</h1>
+            <h1 style="color:greenyellow; background-color:rgb(22, 22, 22)">I have a Great news!!!! <br>Your chances of getting heart attack is very LOW.</h1>
 
 
             {%else%}
-            <h1>Your chances of getting heart attack is HIGH!!!</h1>
+            <h1 style="color:red; background-color:rgb(22, 22, 22)">Your chances of getting heart attack is HIGH!!!</h1>
 
 
             {%endif%}
+            
+            <style>
+                body {
+                    font-family:'Montserrat', sans-serif;
+                }
+            </style>
 
             <br>
             
