@@ -1,6 +1,5 @@
 from os import environ as env
 from urllib.parse import quote_plus, urlencode
-from chat import get_response
 from authlib.integrations.flask_client import OAuth
 from dotenv import find_dotenv, load_dotenv
 from flask import Flask, redirect, render_template, session, url_for,request, jsonify
@@ -67,15 +66,7 @@ def logout():
                 quote_via=quote_plus,
             )
         )
-############################################################################### Chat ############# 
 
-@app.route('/predictb', methods=['GET', 'POST'])
-def predictb(): 
-    if request.method == 'POST':
-        text = request.get_json().get("message")
-        response = get_response(text)
-        message = {'answer': response}
-        return jsonify(message)
 ############################################################################### views #############
 model = load_model('tuned_model')
 #model = pickle.load(open('tuned_model.pkl', 'rb'))

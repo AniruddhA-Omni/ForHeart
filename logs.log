@@ -18,3 +18,113 @@
 2022-06-19 12:46:29,488:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
 2022-06-19 12:47:00,221:INFO:Initializing load_model()
 2022-06-19 12:47:00,221:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 12:54:33,327:INFO:Initializing load_model()
+2022-06-19 12:54:33,328:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 12:55:35,881:INFO:Initializing predict_model()
+2022-06-19 12:55:35,881:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='target')),
+                ('fix_perfect', Remove_100(target='target')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.64, class_weight='balanced',
+                                    max_iter=1000, random_state=360)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-19 12:55:35,881:INFO:Checking exceptions
+2022-06-19 12:55:35,881:INFO:Preloading libraries
+2022-06-19 12:59:34,479:INFO:Initializing load_model()
+2022-06-19 12:59:34,479:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 12:59:41,373:INFO:Initializing predict_model()
+2022-06-19 12:59:41,373:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='target')),
+                ('fix_perfect', Remove_100(target='target')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.64, class_weight='balanced',
+                                    max_iter=1000, random_state=360)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-19 12:59:41,373:INFO:Checking exceptions
+2022-06-19 12:59:41,373:INFO:Preloading libraries
+2022-06-19 13:00:16,377:INFO:Initializing load_model()
+2022-06-19 13:00:16,377:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 13:00:17,346:INFO:Initializing predict_model()
+2022-06-19 13:00:17,346:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='target')),
+                ('fix_perfect', Remove_100(target='target')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.64, class_weight='balanced',
+                                    max_iter=1000, random_state=360)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-19 13:00:17,346:INFO:Checking exceptions
+2022-06-19 13:00:17,346:INFO:Preloading libraries
+2022-06-19 13:11:00,270:INFO:Initializing load_model()
+2022-06-19 13:11:00,270:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 15:44:37,971:INFO:Initializing load_model()
+2022-06-19 15:44:37,972:INFO:load_model(model_name=tuned_model, platform=None, authentication=None, verbose=True)
+2022-06-19 15:45:23,506:INFO:Initializing predict_model()
+2022-06-19 15:45:23,513:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='target')),
+                ('fix_perfect', Remove_100(target='target')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.64, class_weight='balanced',
+                                    max_iter=1000, random_state=360)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-19 15:45:23,513:INFO:Checking exceptions
+2022-06-19 15:45:23,514:INFO:Preloading libraries
