@@ -350,6 +350,7 @@ a button .cente:hover {
       padding-left: 20%;
       width: 30vw;
       margin-right: 2%;
+      height: 350px;
     }
     
     .flextitle {
@@ -553,6 +554,14 @@ a button .cente:hover {
 
 
 /* ///////////////////////// */
+@media (max-width:1300px) and (min-width:1200px) {
+  .chatbox{
+         right: 140vh;
+         bottom: -160px;
+  }
+}
+
+
     @media screen and (max-width:1200px) and (min-width:1100px) {
          .abt{
                   font-size: 18px;
@@ -595,6 +604,12 @@ a button .cente:hover {
         width: 300px;
        
       }
+      .centered{
+        left: 35%;
+      }
+      .cente{
+        left: 35%;
+      }
     }
 
     @media screen and (max-width:858px) and (min-width:800px) {
@@ -610,6 +625,12 @@ a button .cente:hover {
       }
       .checkbtn{
         margin-right: -1%;
+      }
+      .centered{
+        left: 35%;
+      }
+      .cente{
+        left: 35%;
       }
     }
 
@@ -627,6 +648,12 @@ a button .cente:hover {
       }
       .checkbtn{
         margin-right: 0%;
+      }
+      .centered{
+        left: 35%;
+      }
+      .cente{
+        left: 35%;
       }
     }
 
@@ -667,7 +694,7 @@ a button .cente:hover {
     }
 
 
-    @media screen and (max-width:570px) and (min-width:400px) {
+    @media screen and (max-width:570px) and (min-width:500px) {
       .abt{
         font-size: 14px;
         margin-top: 4%;
@@ -686,6 +713,29 @@ a button .cente:hover {
         margin-top: 35%;
       }
     }
+
+
+    @media screen and (max-width:500px) and (min-width:400px) {
+      .abt{
+        font-size: 14px;
+        margin-top: 4%;
+        width: 90%;
+        border-radius: 30px 20px;
+      }
+      .docimg{
+            margin-left: -150%;
+      }
+      .centered{
+        left: -65%;
+        margin-top: 65%;
+      }
+      .cente{
+        left: -65%;
+        margin-top: 35%;
+      }
+    }
+
+
 
     @media screen and (max-width:400px) and (min-width:300px) {
       .abt{
@@ -789,7 +839,7 @@ a button .cente:hover {
 =============== */
 .chatbox {
   position: absolute;
-  bottom: -220px;
+  bottom: -300px;
   right: 180vh;
   padding-bottom: 20px;
   --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
@@ -988,5 +1038,123 @@ a button .cente:hover {
   }
   label.logo{
     font-size: 25px;
+  }
+}
+
+
+@media (max-width:1300px) and (min-width:1200px) {
+  .chatbox{
+         right: 140vh;
+         bottom: -300px;
+  }
+}
+
+
+@media (max-width:1200px) and (min-width:1100px) {
+  .chatbox{
+         right: 130vh;
+         bottom: -300px;
+  }
+}
+
+
+@media (max-width:1100px) and (min-width:1000px) {
+  .chatbox{
+         right: 120vh;
+         bottom: -200px;
+  }
+}
+
+
+@media (max-width:1000px) and (min-width:900px) {
+  .chatbox{
+         right: 105vh;
+         bottom: -250px;
+  }
+}
+
+
+@media (max-width:900px) and (min-width:800px) {
+  .chatbox{
+         right: 95vh;
+         bottom: -200px;
+  }
+}
+
+
+@media (max-width:800px) and (min-width:700px) {
+  .chatbox{
+         right: 80vh;
+         bottom: -200px;
+  }
+}
+
+
+@media (max-width:700px) and (min-width:600px) {
+  .chatbox{
+         right: 70vh;
+         bottom: -250px;
+  }
+}
+
+
+
+@media (max-width:600px) and (min-width:570px) {
+  .chatbox{
+         right: 60vh;
+         bottom: -250px;
+  }
+}
+
+
+
+@media (max-width:570px) and (min-width:500px) {
+  .chatbox{
+         right: 55vh;
+         bottom: -550px;
+  }
+}
+
+@media (max-width:500px) and (min-width:400px) {
+  .chatbox{
+         right: 35vh;
+         bottom: -550px;
+  }
+  .chatbox--active {
+  
+    transform: translateX(300px);
+  }
+  .chatbox__support{
+    width: 300px;
+  }
+}
+
+
+@media (max-width:400px) and (min-width:380px) {
+  .chatbox{
+         right: 30vh;
+         bottom: -550px;
+  }
+  .chatbox--active {
+  
+    transform: translateX(300px);
+  }
+  .chatbox__support{
+    width: 300px;
+  }
+}
+
+
+@media (max-width:380px) and (min-width:350px) {
+  .chatbox{
+         right:39vh;
+         bottom: -800px;
+  }
+  .chatbox--active {
+  
+    transform: translateX(300px);
+  }
+  .chatbox__support{
+    width: 300px;
   }
 }
