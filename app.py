@@ -128,4 +128,4 @@ def form_get():
     return render_template('Result.html', data=pred, name=peru)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=env.get("PORT", 3000),debug=True)
+    app.run(host="0.0.0.0", port=env.get("PORT", 3000))
