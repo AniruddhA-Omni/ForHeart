@@ -125,8 +125,6 @@ def form_get():
     data_unseen = pd.DataFrame([arr], columns=cols)
     prediction = predict_model(model, data=data_unseen)
     pred = int(prediction.Label[0])
-    
-    print(prediction)
     return render_template('Result.html', data=pred, name=peru)
 
 if __name__ == "__main__":
