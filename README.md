@@ -1,9 +1,5 @@
 # ForHeart: Live a long life with Good Heart!
 ***
-## Website Link
-https://forheart.herokuapp.com/ (Working)
-<br>
-https://forheart.tech/ (Not Working)
 ## Demo Link
 https://youtu.be/Q6H3ZPgwlvg
 ***
